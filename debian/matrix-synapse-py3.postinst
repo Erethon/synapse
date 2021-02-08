@@ -53,4 +53,7 @@ esac
 
 #DEBHELPER#
 
+chown -R matrix-synapse:root /etc/matrix-synapse/
+chmod -R u+rwX,go-r /etc/matrix-synapse/
+
 exit 0
